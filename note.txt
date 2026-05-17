@@ -1,0 +1,27 @@
+It is to note that , the  module name in project.v should match the info.yaml top module name.
+
+
+
+and all operations from inside 8-bit-cpu.v, the names can be changed according to whatever we want for our own convience.
+
+
+
+
+module tt_um_example (
+    input  wire [7:0] ui_in,    // Dedicated inputs
+    output wire [7:0] uo_out,   // Dedicated outputs
+    input  wire [7:0] uio_in,   // IOs: Input path
+    output wire [7:0] uio_out,  // IOs: Output path
+    output wire [7:0] uio_oe,   // IOs: Enable path (active high: 0=input, 1=output)
+    input  wire       ena,      // always 1 when the design is powered, so you can ignore it
+    input  wire       clk,      // clock
+    input  wire       rst_n     // reset_n - low to reset
+);
+
+
+This is the only part, these variables are the part of the standard template for the 8-bit processor, and should not be changed.
+
+
+
+the .devcontainer/, .github/, .vscode/ shouldn't be changed , as its important for the build of the chip 
+
