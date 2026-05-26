@@ -14,3 +14,11 @@ echo "Done! Click on the .vcd file to view waveforms."
 # USE THE ABOVE COMMANDS TO compile and run the simulation
 
 
+# COMMANDS TO PUSH INTO THE GITHUB REPO ON THIS BRANCH IF USING CODESPACE
+
+# 1. Double check that your prompt says (basics) and not a random number
+git checkout basics
+git add .
+git commit -m "Added 3 new practice files to basics track"
+git pull --rebase origin basics
+git push origin basics

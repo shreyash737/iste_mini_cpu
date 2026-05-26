@@ -12,6 +12,7 @@ test/__pycache__/
 test/results.xml
 test/gate_level_netlist.v
 
+*.vvp
 note
 git
 basic-test/     # this one has the vvp file
