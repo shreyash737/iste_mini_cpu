@@ -4,7 +4,8 @@ module firstmodule(
     output sum,
     output carry
     
-)
+);
+
     assign sum = a+b;
     assign carry = a & b;
 
