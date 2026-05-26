@@ -1,6 +1,6 @@
 .DS_Store
 .idea
-*.vcd
+*.vcd   # these are the waveform files 
 *.fst
 *.fst.hier
 runs
@@ -14,3 +14,4 @@ test/gate_level_netlist.v
 
 note
 git
+basic-test/     # this one has the vvp file
