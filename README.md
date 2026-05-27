@@ -1,7 +1,7 @@
 # BASICS GIT BRANCH
 
 
-this branch is seperate from the main branch and it's mainly for you to utilise the cloud facility to run the verilog simulations irrespective of what OS you use.
+this branch is seperate from the main branch and it's mainly for you to  run the verilog simulations irrespective of what OS you use.
 
 Use it on github codespace. For the important commands , refer  **run.sh** file.
 
